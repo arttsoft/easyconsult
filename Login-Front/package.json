@@ -40,5 +40,13 @@
       "last 1 safari version"
     ]
   },
+  "devServer": {
+    "compress": true,
+    "disableHostCheck": true,
+    "port": 3000,
+    "allowedHosts": [
+      "https://dr.easyconsult.co.in"
+    ]
+  },
   "proxy": "https://mytestpage.today"
 }
